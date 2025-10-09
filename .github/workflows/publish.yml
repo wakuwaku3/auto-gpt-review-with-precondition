@@ -16,7 +16,7 @@ jobs:
           ref: main
       - uses: actions/setup-python@v3
         with:
-          python-version: '3.11'
+          python-version: '3.14'
       - run: pip install poetry
       - run: make install
       - run: poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
