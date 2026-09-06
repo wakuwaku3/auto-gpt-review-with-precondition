@@ -15,7 +15,7 @@ jobs:
   save:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Auto GPT Review With Preconditions
         uses: wakuwaku3/auto-gpt-review-with-precondition@v0.3.8
         with:
